@@ -9,7 +9,7 @@ Project is created with:
 * CSS
 
 ## Link
-https://iceicery.github.io/personal_website/
+https://iceicery.github.io/personal_website/index.html
 
 ## Plans for the next
 * Live a wonderfull live and keep document it.
