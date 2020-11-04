@@ -12,4 +12,5 @@ Project is created with:
 https://iceicery.github.io/personal_website/index.html
 
 ## Plans for the next
-* Live a wonderfull live and keep document it.
+* Live a wonderful life and keep documenting it.
+
