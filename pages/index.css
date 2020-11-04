@@ -104,19 +104,20 @@
 }
 .header__subtitle {
     padding-left: 30px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.2;
     font-weight: lighter;
 }
 
 .header__menu{
+    margin-top:40px;
     display: flex;
     justify-content: start;
 }
 
 .header__menu-list{
     padding:10px;
-    margin: 10px;
+    margin-right: 20px;
     border-radius: 10px;
     border:solid #fff;
     list-style: none;
@@ -126,7 +127,6 @@
     opacity: 80%;
     border-top: solid rgba(255,255,255,.6);
     padding:30px;
-    margin: 30px;
     width:100%;
     display:flex;
     justify-content:start;
