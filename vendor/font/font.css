@@ -11,3 +11,9 @@
     font-weight: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Lobster";
+    src: url(./Lobster/Lobster-Regular.ttf);
+    font-display: swap;
+}

@@ -55,6 +55,8 @@
 
 @media screen and (max-width:500px) {
     .header__container {
+        top:10px;
+        right:10px;
         width:50px;
         height:50px;
     }
@@ -90,13 +92,21 @@
 }
 
 .header__title {
+    
     padding-left:30px;
     font-size: 50px;
 }
-
+.header__title-hi{
+    font-family: 'Lobster';
+    font-size:30px;
+    padding-top:30px;
+    padding-left: 30px;
+}
 .header__subtitle {
     padding-left: 30px;
     font-size: 30px;
+    line-height: 1.2;
+    font-weight: lighter;
 }
 
 .header__menu{
@@ -113,30 +123,45 @@
 }
 
 .footer{
+    opacity: 80%;
     border-top: solid rgba(255,255,255,.6);
     padding:30px;
+    margin: 30px;
     width:100%;
     display:flex;
-    justify-content: start;
+    justify-content:start;
+    align-items: baseline;
+}
+.footer__box1{
+    display: flex;
+    align-items: baseline;
+    margin-right: 80px;
+}
+.footer__box2{
+    display: flex;
+    align-items: baseline;
 }
 .footer__title{
-    margin-right: 30px;
+    margin-right:10px;
     padding:0;
+}
+.footer__subtitle{
+    margin:0;
+    padding:0;
+    font-weight:normal;
 }
 .footer__icons{
     list-style: none;
     display:flex;
     justify-content: start;
+    align-items: center;
 }
 
-.footer__icon{
-    margin-right: 20px;
-    color:#fff;
-    text-decoration: none;
-}
+
 .footer__icon-linkedin{
     background-image:url('../images/LI-In-Bug.png');
     background-size: 100%;
+    background-position: bottom;
     margin-right: 20px;
     width: 25px;
     height: 25px;
